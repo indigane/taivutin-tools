@@ -1,12 +1,16 @@
-# Wiktionary
+# Taivutin-tools
+
+Word list generation tools for [github.com/indigane/taivutin](https://github.com/indigane/taivutin)
+
+## Wiktionary
 
 Word list generation using English Wiktionary.
 
-## Usage
+### Usage
 
 1. Install Python and Lua interpreters (authored with Python 3.7 and Lua 5.2)
 2. Download an English Wiktionary dump.
-    1. Select a mirror https://dumps.wikimedia.org/mirrors.html
+    1. Select a mirror [dumps.wikimedia.org/mirrors](https://dumps.wikimedia.org/mirrors.html)
     2. Download a file called `enwiktionary-YYYYMMDD-pages-meta-current.xml` in your preferred archive format.
     3. Unarchive it somewhere with enough space.
 3. Run `python parse_wiktionary.py <path-to-the/enwiktionary-YYYYMMDD-pages-meta-current.xml>`
